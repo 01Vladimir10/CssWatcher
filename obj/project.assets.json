@@ -2115,20 +2115,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vladimir\\.nuget\\packages\\": {}
+    "C:\\Users\\vladimir.gonzalez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Tools\\CssWatcher\\CssWatcher.csproj",
+      "projectUniqueName": "D:\\Projects\\Labs\\CssWatcher\\CssWatcher.csproj",
       "projectName": "CssWatcher",
-      "projectPath": "D:\\Projects\\Tools\\CssWatcher\\CssWatcher.csproj",
-      "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Tools\\CssWatcher\\obj\\",
+      "projectPath": "D:\\Projects\\Labs\\CssWatcher\\CssWatcher.csproj",
+      "packagesPath": "C:\\Users\\vladimir.gonzalez\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Labs\\CssWatcher\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\vladimir.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2184,7 +2192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

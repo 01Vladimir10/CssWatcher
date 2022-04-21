@@ -13,10 +13,15 @@ function removeCss(url) {
 }
 
 const injectCss = (url) => {
-    const css = document.createElement('link');
-    css.rel = 'stylesheet';
-    css.href = url;
-    document.head.appendChild(css);
+    let head = document.getElementsByTagName('head')[0];
+    const link = document.createElement('link');
+    link.id   = new Date().getTime().toString();
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.media = 'all';
+    link.rel = 'stylesheet';
+    link.href = url;
+    head.appendChild(link);
 }
 
 async function start() {
@@ -34,7 +39,7 @@ connection.on('FileChanged', (url) => {
     removeCss(url);
     injectCss(url);
 });
-connection.on('FileDeleted', (url) => {
+connection.on('FileRemoved', (url) => {
     console.log('File deleted: ', url);
     removeCss(url);
 });

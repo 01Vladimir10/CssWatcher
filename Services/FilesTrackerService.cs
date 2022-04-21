@@ -19,7 +19,7 @@ public class FilesTrackerService : IFilesTrackerService
     {
         var clientPath = localPath.Replace(_options.Path, RootPath);
         clientPath = clientPath.Replace("\\", "/");
-        clientPath = clientPath.Replace("//", "/");
+        clientPath = clientPath.Replace("css//", "css/");
         _files[localPath] = clientPath;
     }
 
