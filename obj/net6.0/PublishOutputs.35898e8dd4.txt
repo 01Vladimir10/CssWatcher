@@ -1,0 +1,16 @@
+D:\Projects\Tools\binaries\CssFilesWatcher\CssWatcher.exe
+D:\Projects\Tools\binaries\CssFilesWatcher\appsettings.Development.json
+D:\Projects\Tools\binaries\CssFilesWatcher\appsettings.json
+D:\Projects\Tools\binaries\CssFilesWatcher\Scripts\client.js
+D:\Projects\Tools\binaries\CssFilesWatcher\Scripts\signal.js
+D:\Projects\Tools\binaries\CssFilesWatcher\CssWatcher.dll
+D:\Projects\Tools\binaries\CssFilesWatcher\CssWatcher.deps.json
+D:\Projects\Tools\binaries\CssFilesWatcher\CssWatcher.runtimeconfig.json
+D:\Projects\Tools\binaries\CssFilesWatcher\CssWatcher.pdb
+D:\Projects\Tools\binaries\CssFilesWatcher\CommandLine.dll
+D:\Projects\Tools\binaries\CssFilesWatcher\Microsoft.OpenApi.dll
+D:\Projects\Tools\binaries\CssFilesWatcher\Newtonsoft.Json.dll
+D:\Projects\Tools\binaries\CssFilesWatcher\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\Tools\binaries\CssFilesWatcher\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\Tools\binaries\CssFilesWatcher\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\Tools\binaries\CssFilesWatcher\System.Net.WebSockets.WebSocketProtocol.dll
